@@ -60,7 +60,6 @@ function App() {
     return (
         <div className="app">
             <Router>
-                
                 <LoginScreen />
                 <Switch>
                     <Route path="/profile">
@@ -70,7 +69,7 @@ function App() {
                         <HomeScreen />
                     </Route>
                 </Switch>
-                )
+                
             </Router>
         </div>
     );

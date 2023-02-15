@@ -27,7 +27,7 @@ function LoginScreen() {
             <SignupScreen/>
         ) : (
                 <>
-                {/* remove this */}
+                
                     <h1>Unlimited movies, TV shows & more</h1>
                     <h2>Watch anywhere. Cancel Anytime.</h2>
                     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>

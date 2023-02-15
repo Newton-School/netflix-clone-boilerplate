@@ -8,7 +8,6 @@ function SignupScreen() {
     const emailRef = useRef(null);
     const passwordRef = useRef(null);
 
-    // if the user is not authentic redirect them to Route="/"
     const register = (e) => {
         e.preventDefault();
         auth.createUserWithEmailAndPassword(
@@ -38,13 +37,21 @@ function SignupScreen() {
         <div className="signupScreen">
             <form>
                 <h1>Sign In</h1>
-                <input placeholder="Email" type="email" id="email_input" />
                 <input
+                    ref={emailRef}
+                    placeholder="Email"
+                    type="email"
+                    id="email_input"
+                />
+                <input
+                    ref={passwordRef}
                     placeholder="Password"
                     type="password"
                     id="password_input"
                 />
-                <button type="submit">Sign In</button>
+                <button type="submit" id="signup_button">
+                    Sign In
+                </button>
                 <h4>
                     <span
                         className="signupScreen_gray"
