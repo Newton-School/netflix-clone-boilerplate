@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "./components/app/store";
+import { store } from "./components/helper/store";
 import App from "./components/app";
 import ReactDOM from "react-dom";
 const container = document.getElementById("root");
