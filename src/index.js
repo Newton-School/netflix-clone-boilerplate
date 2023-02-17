@@ -1,7 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { store } from "./components/helper/store";
-import App from "./components/app";
+import App from "./components/App";
 import ReactDOM from "react-dom";
 const container = document.getElementById("root");
 import "./components/index.css";
